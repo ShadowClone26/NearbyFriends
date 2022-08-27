@@ -1,0 +1,73 @@
+export const commoncss = {
+    headingdiv:{
+        // backgroundColor:"green",
+        paddingVertical:10,
+        paddingTop:40,
+        // borderRadius:100,
+        // paddingHorizontal:10,
+        justifyContent:"space-between",
+        flexDirection:"row",
+        alignItems:"center",
+        // paddingRight:25,
+    },pagename:{
+        color:colors.blue1,
+        fontSize:25,
+        // backgroundColor:"red",
+        // letterSpacing:1,
+        fontWeight:"bold",
+        // paddingLeft:15,
+    },icondiv:{
+        // backgroundColor:"red",
+        flexDirection:"row",
+    },loadingspinpage:{
+        // flex:1,
+        // backgroundColor:"red",
+        position:"absolute",
+        top:0,bottom:0,left:0,right:0,
+        zIndex:10,
+        // backgroundColor:colors.blue4,
+        opacity:0.7,
+    },notidiv:{
+        // backgroundColor:"red",
+        position:"absolute",
+        alignItems:"center",
+        bottom:0,
+        left:10,
+        right:10,
+        backgroundColor:colors.skin,
+        paddingVertical:20,
+        paddingBottom:30,
+        borderRadius:55,
+        borderBottomLeftRadius:0,
+        borderBottomRightRadius:0,
+    },noti:{
+        // width:"90%",
+        // textAlign:"center",
+        // marginHorizontal:20,
+        fontSize:18,
+        letterSpacing:0.5,
+        paddingHorizontal:30,
+        textAlign:"center",
+        
+        // justifyContent:"center",
+        // marginVertical:7,
+        // opacity:0.7,
+        // fontWeight:"500"
+    },dummy:{
+        top:0,right:0,left:0,bottom:0,
+        backgroundColor:colors.blue1,
+        position:"absolute",
+        opacity:0.4,
+    },okbtn:{
+        backgroundColor:colors.blue3,
+        color:colors.blue5,
+        fontSize:18,
+        textTransform:"uppercase",
+        fontWeight:"bold",
+        paddingHorizontal:40,
+        marginVertical:10,
+        paddingVertical:3,
+        borderRadius:20,
+        elevation:4,
+    }
+}
